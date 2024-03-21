@@ -64,7 +64,22 @@ input[type="checkbox"]{
   font: inherit;
   color: rgba(27, 172, 75, 1);
   border-radius: 5px;
+  display: grid;
+  place-content: center;
 }
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em rgba(27, 172, 75, 1);
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
 
 .fontLucki{
     font-family: "Luckiest Guy", cursive!important;
