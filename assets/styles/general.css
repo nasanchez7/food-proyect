@@ -42,6 +42,7 @@ input[type="number"]:focus{
     transition: all 0.5s;
 }
 
+
 select:focus{
     outline: none;
 }
@@ -54,4 +55,12 @@ input[type="checkbox"]{
   font: inherit;
   color: rgba(27, 172, 75, 1);
   border-radius: 5px;
+}
+
+.fontLucki{
+    font-family: "Luckiest Guy", cursive!important;
+}
+
+.contenedorScroll::-webkit-scrollbar {
+    display: none;
 }

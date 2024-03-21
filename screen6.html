@@ -15,14 +15,14 @@
 </head>
 <body>
     <section class="vh-100 position-relative w-100">
-        <div class="h-100 d-flex flex-column overflow-y-scroll w-100 p-4">
+        <div class="h-100 d-flex flex-column overflow-y-scroll w-100 p-4" style="padding-bottom: 100px!important;">
             <div class="d-flex align-items-center justify-content-between w-100 mb-4">
                 <div class="d-flex align-items-center gap-3">
                     <img src="./assets/img/avatar.png" class="object-fit-contain">
-                    <div class="d-flex flex-column gap-2">
+                    <div class="d-flex flex-column gap-1">
                         <small>Deliver to</small>
                         <div class="d-flex gap-2 align-items-center">
-                            <strong>Times Square</strong>
+                            <strong style="font-weight: 700; font-size: 20px;">Times Square</strong>
                             <img src="./assets/img/ArrowDownGreen.png" class="object-fit-contain">
                         </div>
                     </div>
@@ -36,26 +36,255 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex gap-3 w-100" style="background-color: rgba(245, 245, 245, 1); border-radius: 16px; height: 60px; padding: 0px 20px 0px 20px;">
+            <div class="d-flex gap-3 w-100" style="background-color: rgba(245, 245, 245, 1); border-radius: 16px; height: 60px; padding: 20px 20px 20px 20px;">
                 <img src="./assets/img/Search.png" class="object-fit-contain">
                 <input style="" class="bg-transparent border-0 w-100" type="text" name="" id="" placeholder="What are you craving?">
                 
             </div>
-            <div class="d-flex flex-column gap-3 mt-5">
+            <div class="d-flex flex-column gap-3 mt-4">
                 <div class="d-flex align-items-center justify-content-between">
                     <h3 class="fw-bold" style="font-size: 20px; color: rgba(33, 33, 33, 1);">Special Offers</h3>
                     <a class="fw-bold text-decoration-none" style="color: rgba(27, 172, 75, 1);" href="">See all</a>
                 </div>
-                <div class="d-flex justify-content-between align-items-end pt-3 pl-2 pr-2">
-                    <div  class="d-flex flex-column">
-                        <h4 style="font-size: 60px;" class="mb-2">30%</h4>
-                        <h4 style="font-size: 18px;">DISCOUNT ONLY <br> VALID FOR TODAY!</h4>
+                <div class="d-flex justify-content-between align-items-end pe-3 ps-3"
+                style="background: rgb(70,211,117);
+                background: linear-gradient(90deg, rgba(70,211,117,1) 0%, rgba(27,172,75,1) 100%); border-radius: 36px; box-shadow: 4px 8px 24px 0px rgba(27, 172, 75, 0.25);"
+                >
+                    <div class="d-flex flex-column pb-3 ps-2">
+                        <h4 style="font-size: 60px;" class="mb-2 text-white fontLucki">30%</h4>
+                        <h4 style="font-size: 18px;" class="text-white fontLucki">DISCOUNT ONLY <br> VALID FOR TODAY!</h4>
                     </div>
                     <img src="./assets/img/hamburguer.png" class="object-fit-contain">
                 </div>
             </div>
+            <div class="d-flex gap-2 flex-wrap mt-4 align-items-center justify-content-around">
+                <div class="d-flex flex-column gap-2 align-items-center justify-content-evenly">
+                    <img src="./assets/img/comida1.png" class="object-fit-contain w-75 ">
+                    <strong>Hambur..</strong>
+                </div>
+                <div class="d-flex flex-column gap-2 align-items-center h-100 justify-content-evenly">
+                    <img src="./assets/img/comida2.png" class="object-fit-contain">
+                    <strong>Pizza</strong>
+                </div>
+                <div class="d-flex flex-column gap-2 align-items-center h-100 justify-content-evenly">
+                    <img src="./assets/img/comida3.png" class="object-fit-contain">
+                    <strong>Noodles</strong>
+                </div>
+                <div class="d-flex flex-column gap-2 align-items-center h-100 justify-content-evenly">
+                    <img src="./assets/img/comida4.png" class="object-fit-contain">
+                    <strong>Meat</strong>
+                </div>
+            </div>
+            <div class="d-flex gap-2 flex-wrap mt-4 align-items-center justify-content-around">
+                <div class="d-flex flex-column gap-2 align-items-center justify-content-evenly">
+                    <img src="./assets/img/comida5.png" class="object-fit-contain w-75 ">
+                    <strong>Vegeta..</strong>
+                </div>
+                <div class="d-flex flex-column gap-2 align-items-center h-100 justify-content-evenly">
+                    <img src="./assets/img/comida6.png" class="object-fit-contain">
+                    <strong>Dessert</strong>
+                </div>
+                <div class="d-flex flex-column gap-2 align-items-center h-100 justify-content-evenly">
+                    <img src="./assets/img/comida7.png" class="object-fit-contain">
+                    <strong>Drink</strong>
+                </div>
+                <div class="d-flex flex-column gap-2 align-items-center h-100 justify-content-evenly">
+                    <img src="./assets/img/comida8.png" class="object-fit-contain">
+                    <strong>More</strong>
+                </div>
+            </div>
+            <div class="d-flex flex-column mt-4">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1);" class="fw-bold">Discount Guaranteed! 👌</h3>
+                    <strong style="font-size: 16px; color: rgba(27, 172, 75, 1);">See All</strong>
+                </div>
+                <div class="overflow-y-scroll d-flex contenedorScroll pb-3">
+                    <div class="d-flex flex-column bg-white me-3" style="border-radius: 28px; box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); padding: 14px 14px 16px 14px;
+                    ">  
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 left-0 ms-3 mt-3" style="background-color: rgba(27, 172, 75, 1); padding: 2px 10px 2px 10px; border-radius: 6px;">
+                                <small class="text-white fw-medium" style="font-size: 10px; letter-spacing: 0.2px;">PROMO</small>
+                            </div>
+                            <img src="./assets/img/plato1.png" class="object-fit-contain">
+                        </div>
+                        <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1); font-weight: 700;" class="mt-3">Mixed Salad Bonb...</h3>
+                        <div class="d-flex align-items-center gap-1 h-100">
+                            <small style="color: rgba(97, 97, 97, 1); font-size: 12px;">1.5km | </small>
+                            <img src="./assets/img/star.png" class="object-fit-contain">
+                            <small style="color: rgba(97, 97, 97, 1); font-size: 12px;">4.8 (1.2k)</small>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-2">
+                            <div class="d-flex align-items-center gap-2 h-100">
+                                <h4 style="font-size: 20px; color: rgba(27, 172, 75, 1); margin-bottom: 0px; font-weight: 700;">$6.00</h4>
+                                <small style="font-size: 10px; color: rgba(97, 97, 97, 1);">|</small>
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assets/img/delivery.png" class="object-fit-contain">
+                                    <small style="font-size: 12px; color: rgba(97, 97, 97, 1);">$2.00</small>
+                                </div>
+                            </div>
+                            <img src="./assets/img/heart.png" class="object-fit-contain">
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-column bg-white me-3" style="border-radius: 28px; box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); padding: 14px 14px 16px 14px;
+                    ">  
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 left-0 ms-3 mt-3" style="background-color: rgba(27, 172, 75, 1); padding: 2px 10px 2px 10px; border-radius: 6px;">
+                                <small class="text-white fw-medium" style="font-size: 10px; letter-spacing: 0.2px;">PROMO</small>
+                            </div>
+                            <img src="./assets/img/plato1.png" class="object-fit-contain">
+                        </div>
+                        <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1); font-weight: 700;" class="mt-3">Mixed Salad Bonb...</h3>
+                        <div class="d-flex align-items-center gap-1 h-100">
+                            <small style="color: rgba(97, 97, 97, 1); font-size: 12px;">1.5km | </small>
+                            <img src="./assets/img/star.png" class="object-fit-contain">
+                            <small style="color: rgba(97, 97, 97, 1); font-size: 12px;">4.8 (1.2k)</small>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-2">
+                            <div class="d-flex align-items-center gap-2 h-100">
+                                <h4 style="font-size: 20px; color: rgba(27, 172, 75, 1); margin-bottom: 0px; font-weight: 700;">$6.00</h4>
+                                <small style="font-size: 10px; color: rgba(97, 97, 97, 1);">|</small>
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assets/img/delivery.png" class="object-fit-contain">
+                                    <small style="font-size: 12px; color: rgba(97, 97, 97, 1);">$2.00</small>
+                                </div>
+                            </div>
+                            <img src="./assets/img/heart.png" class="object-fit-contain">
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-column bg-white me-3" style="border-radius: 28px; box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); padding: 14px 14px 16px 14px;
+                    ">  
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 left-0 ms-3 mt-3" style="background-color: rgba(27, 172, 75, 1); padding: 2px 10px 2px 10px; border-radius: 6px;">
+                                <small class="text-white fw-medium" style="font-size: 10px; letter-spacing: 0.2px;">PROMO</small>
+                            </div>
+                            <img src="./assets/img/plato1.png" class="object-fit-contain">
+                        </div>
+                        <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1); font-weight: 700;" class="mt-3">Mixed Salad Bonb...</h3>
+                        <div class="d-flex align-items-center gap-1 h-100">
+                            <small style="color: rgba(97, 97, 97, 1); font-size: 12px;">1.5km | </small>
+                            <img src="./assets/img/star.png" class="object-fit-contain">
+                            <small style="color: rgba(97, 97, 97, 1); font-size: 12px;">4.8 (1.2k)</small>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-2">
+                            <div class="d-flex align-items-center gap-2 h-100">
+                                <h4 style="font-size: 20px; color: rgba(27, 172, 75, 1); margin-bottom: 0px; font-weight: 700;">$6.00</h4>
+                                <small style="font-size: 10px; color: rgba(97, 97, 97, 1);">|</small>
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assets/img/delivery.png" class="object-fit-contain">
+                                    <small style="font-size: 12px; color: rgba(97, 97, 97, 1);">$2.00</small>
+                                </div>
+                            </div>
+                            <img src="./assets/img/heart.png" class="object-fit-contain">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column mt-4">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1);" class="fw-bold">Recommended For You 😍</h3>
+                    <strong style="font-size: 16px; color: rgba(27, 172, 75, 1);">See All</strong>
+                </div>
+                <div class="overflow-y-scroll d-flex contenedorScroll mt-3">
+                    <div class="d-flex align-items-center justify-content-around me-2" style="background-color: rgba(27, 172, 75, 1); padding: 8px 20px 8px 20px; border-radius: 100px;">
+                        <strong class="text-white" style="font-weight: 600; font-size: 16px; width: max-content;">✅ All</strong>
+                    </div>
+                    <div class="d-flex bg-white align-items-center justify-content-around me-2" style="border: 2px solid rgba(27, 172, 75, 1); padding: 8px 20px 8px 20px; border-radius: 100px; ">
+                        <strong style="font-weight: 600; color: rgba(27, 172, 75, 1); font-size: 16px; width: max-content;">🍔 Hamburger</strong>
+                    </div>
+                    <div class="d-flex bg-white align-items-center justify-content-around me-2" style="border: 2px solid rgba(27, 172, 75, 1); padding: 8px 20px 8px 20px; border-radius: 100px;">
+                        <strong style="font-weight: 600; color: rgba(27, 172, 75, 1); font-size: 16px; width: max-content;">🍕 Pizza</strong>
+                    </div>
+                    <div class="d-flex bg-white align-items-center justify-content-around me-2" style="border: 2px solid rgba(27, 172, 75, 1); padding: 8px 20px 8px 20px; border-radius: 100px;">
+                        <strong style="font-weight: 600; color: rgba(27, 172, 75, 1); font-size: 16px; width: max-content;">🍺 Drink</strong>
+                    </div>
+                    <div class="d-flex bg-white align-items-center justify-content-around me-2" style="border: 2px solid rgba(27, 172, 75, 1); padding: 8px 20px 8px 20px; border-radius: 100px;">
+                        <strong style="font-weight: 600; color: rgba(27, 172, 75, 1); font-size: 16px; width: max-content;">🍺 Drink</strong>
+                    </div>
+                </div>
+                <div class="d-flex flex-column gap-3 mt-3">
+                    <div class="d-flex gap-3" style="background-color: rgba(255, 255, 255, 1); box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px 18px 14px 14px;
+                    ">
+                        <img src="./assets/img/plato2.png" class="object-fit-contain">
+                        <div class="d-flex flex-column gap-2 justify-content-center w-100">
+                            <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1); font-weight: 700;">Vegeratian Noodles</h3>
+                            <div class="d-flex align-items-center gap-1">
+                                <small style="color: rgba(97, 97, 97, 1); font-size: 14px;">800m | </small>
+                                <img src="./assets/img/star.png" class="object-fit-contain">
+                                <small style="color: rgba(97, 97, 97, 1); font-size: 14px;">4.9 (2.3k)</small>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./assets/img/delivery.png" class="object-fit-contain">
+                                    <small style="color: rgba(97, 97, 97, 1); font-size: 14px; font-weight: 500;">$1.50</small>
+                                </div>
+                                <img src="./assets/img/HeartActive.png" class="object-fit-contain">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3" style="background-color: rgba(255, 255, 255, 1); box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px 18px 14px 14px;
+                    ">
+                        <img src="./assets/img/plato2.png" class="object-fit-contain">
+                        <div class="d-flex flex-column gap-2 justify-content-center w-100">
+                            <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1); font-weight: 700;">Vegeratian Noodles</h3>
+                            <div class="d-flex align-items-center gap-1">
+                                <small style="color: rgba(97, 97, 97, 1); font-size: 14px;">800m | </small>
+                                <img src="./assets/img/star.png" class="object-fit-contain">
+                                <small style="color: rgba(97, 97, 97, 1); font-size: 14px;">4.9 (2.3k)</small>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./assets/img/delivery.png" class="object-fit-contain">
+                                    <small style="color: rgba(97, 97, 97, 1); font-size: 14px; font-weight: 500;">$1.50</small>
+                                </div>
+                                <img src="./assets/img/HeartActive.png" class="object-fit-contain">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3" style="background-color: rgba(255, 255, 255, 1); box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px 18px 14px 14px;
+                    ">
+                        <img src="./assets/img/plato2.png" class="object-fit-contain">
+                        <div class="d-flex flex-column gap-2 justify-content-center w-100">
+                            <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1); font-weight: 700;">Vegeratian Noodles</h3>
+                            <div class="d-flex align-items-center gap-1">
+                                <small style="color: rgba(97, 97, 97, 1); font-size: 14px;">800m | </small>
+                                <img src="./assets/img/star.png" class="object-fit-contain">
+                                <small style="color: rgba(97, 97, 97, 1); font-size: 14px;">4.9 (2.3k)</small>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./assets/img/delivery.png" class="object-fit-contain">
+                                    <small style="color: rgba(97, 97, 97, 1); font-size: 14px; font-weight: 500;">$1.50</small>
+                                </div>
+                                <img src="./assets/img/HeartActive.png" class="object-fit-contain">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3" style="background-color: rgba(255, 255, 255, 1); box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px 18px 14px 14px;
+                    ">
+                        <img src="./assets/img/plato2.png" class="object-fit-contain">
+                        <div class="d-flex flex-column gap-2 justify-content-center w-100">
+                            <h3 style="font-size: 20px; color: rgba(33, 33, 33, 1); font-weight: 700;">Vegeratian Noodles</h3>
+                            <div class="d-flex align-items-center gap-1">
+                                <small style="color: rgba(97, 97, 97, 1); font-size: 14px;">800m | </small>
+                                <img src="./assets/img/star.png" class="object-fit-contain">
+                                <small style="color: rgba(97, 97, 97, 1); font-size: 14px;">4.9 (2.3k)</small>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="./assets/img/delivery.png" class="object-fit-contain">
+                                    <small style="color: rgba(97, 97, 97, 1); font-size: 14px; font-weight: 500;">$1.50</small>
+                                </div>
+                                <img src="./assets/img/HeartActive.png" class="object-fit-contain">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="position-fixed bottom-0 left-0 w-100 d-flex align-items-center justify-content-evenly p-3">
+        <div class="position-fixed bottom-0 left-0 w-100 d-flex align-items-center justify-content-evenly p-3 bg-white">
             <div class="d-flex flex-column gap-2">  
                 <img src="./assets/img/home.png" class="object-fit-contain" style="height: 20px;">
                 <strong style="font-size: 12px; color: rgba(27, 172, 75, 1);">Home</strong>
