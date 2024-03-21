@@ -36,10 +36,14 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex gap-3 w-100" style="background-color: rgba(245, 245, 245, 1); border-radius: 16px; height: 60px; padding: 20px 20px 20px 20px;">
-                <img src="./assets/img/Search.png" class="object-fit-contain">
-                <input style="" class="bg-transparent border-0 w-100" type="text" name="" id="" placeholder="What are you craving?">
-                
+            <div class="d-flex gap-3 w-100 position-relative contenedorInput">
+                <input style="border-radius: 16px; height: 60px; padding: 20px 45px 20px 45px; background-color: rgba(245, 245, 245, 1);" class="inputSearch border-0 w-100 position-relative" type="text" name="" id="inputSearch" value="" placeholder="What are you craving?" >
+                    
+                </input>
+                <img 
+                id="cancelSearch"
+                src="./assets/img/cancelblack.png" class="d-none object-fit-contain position-absolute top-0 bottom-0 pe-4" style="right: 0; padding-top: 25px;" >
+                <img src="./assets/img/Search.png" class="object-fit-contain position-absolute left-0 top-0 bottom-0 ps-3" style="padding-top: 20px;">
             </div>
             <div class="d-flex flex-column gap-3 mt-4">
                 <div class="d-flex align-items-center justify-content-between">

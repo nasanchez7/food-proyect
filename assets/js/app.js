@@ -39,6 +39,16 @@ window.addEventListener('load', () => {
             
         });
     }
-    
+    const inputSearch = document.getElementById('inputSearch')
+    if(inputSearch){
+        inputSearch.addEventListener('change', (e) => {
+            const cancelSearch = document.getElementById("cancelSearch")
+            cancelSearch.classList.remove('d-none')
+            cancelSearch.addEventListener('click', () => {
+                cancelSearch.classList.add('d-none')
+                e.target.value = ""
+            })
+        })
+    }
     
 })
