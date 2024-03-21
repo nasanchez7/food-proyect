@@ -88,3 +88,18 @@ input[type="checkbox"]::before {
 .contenedorScroll::-webkit-scrollbar {
     display: none;
 }
+
+textarea{
+    resize: none;
+    background-color: rgba(250, 250, 250, 1);
+    padding: 20px;
+    border-radius: 16px;
+    height: 90px;
+    border: none;
+}
+
+textarea::placeholder{
+    color: rgba(158, 158, 158, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
