@@ -50,5 +50,19 @@ window.addEventListener('load', () => {
             })
         })
     }
-    
+    const logoutButton = document.getElementById('logoutButton')
+    if(logoutButton){
+        const containerLogout = document.getElementById('containerLogout')
+        logoutButton.addEventListener('click', () => {
+            containerLogout.style.zIndex = "999"
+            containerLogout.style.opacity = "1"
+        })
+        const cancelLogout = document.getElementById('cancelLogout')
+        if(cancelLogout) {
+            cancelLogout.addEventListener('click', () => {
+                containerLogout.style.zIndex = "-999"
+                containerLogout.style.opacity = "0"
+            })
+        }
+    }
 })
