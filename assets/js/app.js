@@ -41,7 +41,7 @@ window.addEventListener('load', () => {
     }
     const inputSearch = document.getElementById('inputSearch')
     if(inputSearch){
-        inputSearch.addEventListener('change', (e) => {
+        inputSearch.addEventListener('input', (e) => {
             const cancelSearch = document.getElementById("cancelSearch")
             cancelSearch.classList.remove('d-none')
             cancelSearch.addEventListener('click', () => {
@@ -64,5 +64,42 @@ window.addEventListener('load', () => {
                 containerLogout.style.opacity = "0"
             })
         }
+    }
+    const inputSearchHelp = document.getElementById('inputSearchHelp')
+    if(inputSearchHelp){
+        const contenedorSearchHelp = document.getElementById("contenedorSearchHelp")
+        inputSearchHelp.addEventListener('input', (e) => {
+            console.log(e.target.value.length)
+            contenedorSearchHelp.style.zIndex = "1001"
+            contenedorSearchHelp.style.opacity = "1"
+            if(e.target.value.length == 0){
+                contenedorSearchHelp.style.zIndex = "-1001"
+                contenedorSearchHelp.style.opacity = "0" 
+            }
+        })
+    }
+
+    const itemFood = document.querySelectorAll('.itemFood')
+    if(itemFood){
+        const totalItemsContainer = document.getElementById('totalItemsContainer')
+        const page12 = document.getElementById('page12')
+        itemFood.forEach(item => {
+            item.addEventListener('click', () => {
+                if(totalItemsContainer){
+                    if(!totalItemsContainer.classList.contains('totalItemsActive')){
+                        totalItemsContainer.classList.add('totalItemsActive')
+                    }
+                }
+                if(page12){
+                    page12.style.paddingBottom = "120px"
+                }
+                if(item.classList.contains('itemActive')){
+                    item.classList.remove('itemActive')
+                }else{
+                    item.classList.add('itemActive')
+                }
+            });
+           
+          });
     }
 })

@@ -11,7 +11,7 @@
     <title>Screen 12</title>
 </head>
 <body>
-    <section class="d-flex flex-column">
+    <section class="d-flex flex-column" style="transition: 0.5s;" id="page12">
         <div style="background-image: url(./assets/img/itemfood.png); background-size: cover; background-repeat: no-repeat; background-position: center; height: 428px;">
             <div class="d-flex align-items-center justify-content-between p-4">
                 <img src="./assets/img/ArrowLeftWhite.png" class="object-fit-contain">
@@ -59,7 +59,7 @@
             </div>
             <h3 class="mt-2" style="color: rgba(33, 33, 33, 1); font-size: 24px; font-weight: 700;">For you</h3>
             <div class="d-flex gap-3 align-items-center">
-                <div class="d-flex flex-column w-50" style="padding: 14px 14px 16px 14px; border-radius: 28px; box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05);
+                <div class="itemFood d-flex flex-column w-50" style="padding: 14px 14px 16px 14px; border-radius: 28px; box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05);
                 ">
                     <div class="position-relative">
                         <div style="padding: 2px 10px 2px 10px; background-color: rgba(27, 172, 75, 1); border-radius: 6px;" class="position-absolute top-0 left-0 ms-3 mt-3">
@@ -70,7 +70,7 @@
                     <h4 class="mt-3" style="font-size: 18px; font-weight: 700; color: rgba(33, 33, 33, 1);">Mixed Vegetable Salad</h4>
                     <strong style="color: rgba(27, 172, 75, 1); font-size: 18px; font-weight: 700;">$12.00</strong>
                 </div>
-                <div class="d-flex flex-column w-50" style="padding: 14px 14px 16px 14px; border-radius: 28px; box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05);
+                <div class="itemFood d-flex flex-column w-50" style="padding: 14px 14px 16px 14px; border-radius: 28px; box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05);
                 ">
                     <div class="position-relative">
                         <img src="./assets/img/fooditem.png" class="object-fit-contain">
@@ -81,7 +81,7 @@
             </div>
             <h3 class="mt-2" style="color: rgba(33, 33, 33, 1); font-size: 24px; font-weight: 700;">Menu</h3>
             <div class="d-flex flex-column gap-3">
-                <div class="d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
+                <div class="d-flex w-100 gap-3 itemFood" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
                     <img src="./assets/img/fooditem2.png" class="object-fit-contain">
                     <div class="d-flex flex-column justify-content-center gap-2">
                         <div style="padding: 2px 10px 2px 10px; background-color: rgba(27, 172, 75, 1); border-radius: 6px; width: max-content;">
@@ -91,7 +91,7 @@
                         <strong style="color: rgba(27, 172, 75, 1); font-size: 18px; font-weight: 700;">$10.50</strong>
                     </div>
                 </div>
-                <div class="d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
+                <div class="d-flex w-100 gap-3 itemFood" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
                     <img src="./assets/img/fooditem2.png" class="object-fit-contain">
                     <div class="d-flex flex-column justify-content-center gap-2">
                         
@@ -99,7 +99,7 @@
                         <strong style="color: rgba(27, 172, 75, 1); font-size: 18px; font-weight: 700;">$10.50</strong>
                     </div>
                 </div>
-                <div class="d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
+                <div class="d-flex w-100 gap-3 itemFood" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
                     <img src="./assets/img/fooditem2.png" class="object-fit-contain">
                     <div class="d-flex flex-column justify-content-center gap-2">
                     
@@ -110,7 +110,7 @@
             </div>
             <h3 class="mt-2" style="color: rgba(33, 33, 33, 1); font-size: 24px; font-weight: 700;">Drink</h3>
             <div class="d-flex flex-column gap-3">
-                <div class="d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
+                <div class="itemFood d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
                     <img src="./assets/img/drink.png" class="object-fit-contain">
                     <div class="d-flex flex-column justify-content-center gap-2">
                         <div style="padding: 2px 10px 2px 10px; background-color: rgba(27, 172, 75, 1); border-radius: 6px; width: max-content;">
@@ -120,7 +120,7 @@
                         <strong style="color: rgba(27, 172, 75, 1); font-size: 18px; font-weight: 700;">$4.00</strong>
                     </div>
                 </div>
-                <div class="d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
+                <div class="itemFood d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
                     <img src="./assets/img/drink.png" class="object-fit-contain">
                     <div class="d-flex flex-column justify-content-center gap-2">
                         
@@ -128,7 +128,7 @@
                         <strong style="color: rgba(27, 172, 75, 1); font-size: 18px; font-weight: 700;">$10.50</strong>
                     </div>
                 </div>
-                <div class="d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
+                <div class="itemFood d-flex w-100 gap-3" style="box-shadow: 0px 4px 60px 0px rgba(4, 6, 15, 0.05); border-radius: 28px; padding: 14px;">
                     <img src="./assets/img/drink.png" class="object-fit-contain">
                     <div class="d-flex flex-column justify-content-center gap-2">
                     
@@ -137,6 +137,10 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="bottom-0 left-0 bg-white d-flex align-items-center justify-content-center w-100 position-fixed" style="border-top: 1px solid rgba(245, 245, 245, 1); padding: 24px; transition: all 0.5s; z-index: -1001; opacity: 0;" id="totalItemsContainer">
+            <button class="text-white w-100" style="border-radius: 100px; padding: 18px 16px 18px 16px; background-color: rgba(27, 172, 75, 1); box-shadow: 4px 8px 24px 0px rgba(27, 172, 75, 0.25); border: none;
+            ">Basket • 3 items • $24.00</button>
         </div>
     </section>
 
